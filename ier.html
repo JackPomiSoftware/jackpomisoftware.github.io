@@ -148,6 +148,7 @@
             <td colspan=2>
                 <p class="headersmall" style="padding-top: 10px;">From a technical point of view</p>
                 <p class="normaltext">The software comes with three important files besides the executable itself: two .reg files for controlling the BHO module and a .vbs file for launching Internet Explorer in newer Windows 10 and Windows 11 versions. Windows Defender and Windows SmartScreen will protest when you will use these files through the software, but don't worry about them.</p>
+                <p class="normaltext">But you are gonna ask: why do you need to change the registry? Because Internet Explorer stores all of its settings there: the IEToEdge BHO module is stored as a "{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}" key in the path "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID" and homepage settings are stored in "Start Page" key in the path "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main".</p>
                 <p class="normaltext">3 out of 71 security vendors (Bkav Pro, TEHTRIS and CrowdStrike Falcon) on VirusTotal describe the .exe file as a malware, but that's only because it changes your system's registry (for BHO and homepage settings). So read the above statement as the following: 68 out of 71 antiviruses do not see IE Return as malware. Jack Pomi Software does not produce any malware or other harmful software.</p>
             </td>
         </tr>
