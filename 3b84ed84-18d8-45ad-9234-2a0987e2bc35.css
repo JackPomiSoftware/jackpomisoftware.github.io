@@ -1,0 +1,40 @@
+div.section_oly-aml-near h3.title_section, div.section_oly-aml-far h3.title_section, div.section_oly-aml-center h3.title_section
+{
+	font-size:225%; /* Modify the font size of the title element to accomodate design */
+	font-weight:bold; /* Modify the weight of the title element to accomodate design */
+	margin-left:0px; /* remove the margin on this element as it is now set in the div itself */
+}
+
+
+div.section_oly-aml h4.subTitle
+{
+	font-size:146%; /* Modify the font size of the subtitle element to accomodate design */
+	font-weight:bold; /* Modify the weight of the subtitle element to accomodate design */
+	margin-left:0px; /* remove the margin on this element as it is now set in the div itself */
+}
+
+div.section_oly-aml-light a.navigationLink, div.section_oly-aml-light h4.subTitle
+{
+	color:white; /* change color of links for the Light version to White */
+}
+
+/*
+     FILE ARCHIVED ON 07:35:52 Dec 02, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:44:43 Jun 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.629
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.06
+  esindex: 0.009
+  cdx.remote: 6.911
+  LoadShardBlock: 268.627 (3)
+  PetaboxLoader3.datanode: 286.469 (4)
+  load_resource: 210.889
+  PetaboxLoader3.resolve: 186.413
+*/
