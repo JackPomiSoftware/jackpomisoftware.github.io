@@ -251,7 +251,7 @@ a.menuItemLinkSelected:hover, a.menuItemLink:hover, a.menuItemLinkSimHover, a.me
 #bodyContentPaneFullWidth{min-height:0px;text-align:left;padding-bottom:130px;margin-top:0px;margin-bottom:20px;margin-left:60px;margin-right:60px;clear:both;}
 #bodyContentPane{min-height:0px;position:relative;width:842px;clear:both;margin-top:0px;margin-bottom:20px;margin-left:60px;margin-right:60px;padding-bottom:100px;display:inline-block;}
 #bodyContentPane form#aspnetForm{margin-bottom:0px;}
-#bodyFooter{min-height:0px;position:absolute;z-index:1;bottom:0px;display:block;width:100%;clear:both;}
+#bodyFooter{min-height:0px;position:absolute;z-index:1;bottom:0px;display:block;width:100%;clear:both;background-image: url('img/bg_bottom.png');background-position: bottom;background-repeat: no-repeat;}
 div.SearchQuery{line-height:normal;padding-top:7px;}
 form.SearchQuery{border:solid 1px #3373A1;padding:0px;text-align:center;margin:auto;position:relative;}
 form.SearchQuery, div.SearchQueryBoxBackgroundLevel2{width:310px;height:24px;}
