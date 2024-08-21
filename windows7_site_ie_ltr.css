@@ -384,6 +384,10 @@ span.section_section-button-standard a{background-color:#0066CC;}
 span.section_section-button-standard a:hover, span.section_section-button-standard a:focus{background-color:#5E9AF0;}
 span.section_section-button-standard a.nohref:hover, span.section_section-button-standard a.nohref:focus{background-color:#0066CC;}
 span.section_section-button-standard a:active{background-color:#22436C;}
+span.section_section-button-double a{background-color:#009ccc;}
+span.section_section-button-double a:hover, span.section_section-button-double a:focus{background-color:#5ec7f0;}
+span.section_section-button-double a.nohref:hover, span.section_section-button-double a.nohref:focus{background-color:#00adcc;}
+span.section_section-button-double a:active{background-color:#22676c;}
 span.section_section-button-emphasized a{background-color:#006E12;}
 span.section_section-button-emphasized a:hover, span.section_section-button-emphasized a:focus{background-color:#147222;}
 span.section_section-button-emphasized a:active{background-color:#00680F;}
