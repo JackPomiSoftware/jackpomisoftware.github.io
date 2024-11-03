@@ -247,7 +247,7 @@ a.menuItemLinkSelected:hover, a.menuItemLink:hover, a.menuItemLinkSimHover, a.me
 #bodyContainerBgOutBot{background:transparent url('img/gl_chrome_grad.png') repeat-x scroll 0 -146px;height:130px;position:absolute;z-index:0;height:130px;width:100%;bottom:0px;}
 #bodyContainerBgInBot{background:transparent url('img/gl_chrome_grad.png') no-repeat scroll 0 -650px;width:600px;height:130px;overflow:hidden;position:absolute;z-index:0;height:130px;width:600px;right:0px;}
 #bodyHeader{min-height:0px;margin:0px;padding-top:8px;position:relative;width:100%;cursor:default; background-image: url('img/bg_top_2.png'); background-position: center; background-repeat: no-repeat; background-size: 100%;}
-#bodyNavBar{min-height:0px;position:relative;padding-left:28.2%;display:inline-block;width:100%;margin-top:0px;clear:both;z-index:3;cursor:default;}
+#bodyNavBar{min-height:0px;position:relative;padding-left:24.0%;display:inline-block;width:100%;margin-top:0px;clear:both;z-index:3;cursor:default;}
 #bodyContentPaneFullWidth{min-height:0px;text-align:left;padding-bottom:130px;margin-top:0px;margin-bottom:20px;margin-left:60px;margin-right:60px;clear:both;}
 #bodyContentPane{min-height:0px;position:relative;width:842px;clear:both;margin-top:0px;margin-bottom:20px;margin-left:60px;margin-right:60px;padding-bottom:100px;display:inline-block;}
 #bodyContentPane form#aspnetForm{margin-bottom:0px;}
