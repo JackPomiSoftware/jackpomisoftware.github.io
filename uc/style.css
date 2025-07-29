@@ -162,6 +162,10 @@
     place-items: center; /* centers both horizontally and vertically */
 }
 
+.hero-button a {
+    text-decoration: none;
+}
+
 .hero-download {
     display: flex;
     background: #e2e4e6 url(img/bkg-button.gif) repeat-x 0 bottom;
