@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+    color: #0033CC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #990099;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -7px;
+    color: #198382;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -7px;
+    color: #198382;
+}
+
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -7px;
+    color: #333333;
+    font-size: 12px;
+}
+
+.SectDiv {
+  color: #cccccc;
+  height: 0px;
+  width: 100%;
+  display: block;
+  margin-bottom: 0em;
+  border-style: solid;
+  margin-bottom: 3px;
+}
+
+.tablewrap {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+.Choice {
+    flex: 1;
+    
+}
+
+.Choice td {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.Choice img {
+    padding-bottom: 3px;
+}
+
+.smalltext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+.smalltext ul {
+    padding-left: 12px;
+    margin-top: 8px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+.definition {
+    text-decoration: none;
+    color: #008000;
+}
+
+.definition .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #FEFECC;
+  color: #000000;
+  text-align: left;
+  border-radius: 0px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.definition:hover .tooltiptext {
+  visibility: visible;
+}
