@@ -650,11 +650,23 @@ function translate() {
   }
 }
 
-document.getElementById('lang-switch').value = lang;
-document.getElementById('lang-switch').addEventListener('change', (e) => {
-  lang = e.target.value;
-  localStorage.setItem('lang', lang);
-  translate();
-});
+function initI18n() {
+  const langSwitch = document.getElementById('lang-switch');
+  if (langSwitch && !langSwitch.dataset.i18nBound) {
+    langSwitch.value = lang;
+    langSwitch.addEventListener('change', (e) => {
+      lang = e.target.value;
+      localStorage.setItem('lang', lang);
+      translate();
+    });
+    langSwitch.dataset.i18nBound = 'true';
+  }
 
-translate(); // применить при загрузке
+  translate();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initI18n);
+} else {
+  initI18n();
+}
