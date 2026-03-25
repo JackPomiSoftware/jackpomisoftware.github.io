@@ -1,10 +1,10 @@
-function loadFragment(placeholderId, url, callback) {
+function loadFragment(placeholderId, url) {
   const container = document.getElementById(placeholderId);
   if (!container) {
-    return;
+    return Promise.resolve();
   }
 
-  fetch(url)
+  return fetch(url)
     .then(response => {
       if (!response.ok) {
         throw new Error(`Failed to load fragment: ${url}`);
@@ -13,28 +13,26 @@ function loadFragment(placeholderId, url, callback) {
     })
     .then(html => {
       container.innerHTML = html;
-      if (typeof callback === 'function') {
-        callback();
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  Promise.all([
+    loadFragment('header-placeholder', 'partials/header.html'),
+    loadFragment('footer-placeholder', 'partials/footer.html'),
+    loadFragment('sitemap-placeholder', 'partials/sitemap.html'),
+  ])
+    .then(() => {
+      // i18n must be (re-)initialized after fragments are injected
+      // so data-i18n nodes inside header/footer/sitemap get translated.
+      if (typeof initI18n === 'function') {
+        initI18n();
+      } else if (typeof translate === 'function') {
+        translate();
       }
     })
     .catch(error => {
       console.error(error);
     });
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Header: after it is loaded, re-run i18n so the language
-  // switcher and header texts are properly wired and translated.
-  loadFragment('header-placeholder', 'partials/header.html', () => {
-    if (typeof initI18n === 'function') {
-      initI18n();
-    } else if (typeof translate === 'function') {
-      translate();
-    }
-  });
-
-  // Footer: just inject; its content uses data-i18n keys that
-  // will be picked up by the next translate() call.
-  loadFragment('footer-placeholder', 'partials/footer.html');
 });
 

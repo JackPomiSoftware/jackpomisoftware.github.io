@@ -24,10 +24,14 @@ const translations = {
     map_sect2_1: "Website",
     map_sect2_2: "Documentation",
     map_sect2_3: "Repository",
-    map_title3: "Legacy software",
-    map_sect3_1: "IE Return",
-    map_sect3_2: "UAC QuickAccess",
-    map_sect3_3: "IsGenuine",
+    map_title3: "Local Account Wizard",
+    map_sect3_1: "Website",
+    map_sect3_2: "Documentation",
+    map_sect3_3: "Repository",
+    map_title4: "Legacy software",
+    map_sect4_1: "IE Return",
+    map_sect4_2: "UAC QuickAccess",
+    map_sect4_3: "IsGenuine",
     ////////////
     /// HOME ///
     ////////////
@@ -35,6 +39,8 @@ const translations = {
     hero_desc:  "Replacement for Control Panel and Settings in Windows 10 and Windows 11.",
     hero_button:  "Download",
     news_title: "Latest news: ",
+    news_0: "Local Account Wizard was released on 25 March 2026. ",
+    news_0_link: "Download page.",
     news_1: "From 4 February 2026, this website now supports German, Italian and Russian localization. ",
     news_2: "2025 Report was released on 29 January 2026. ",
     news_2_link: "Read the report.",
@@ -124,6 +130,18 @@ const translations = {
     ier_button1: "Download",
     ier_button2: "GitHub repository",
     ier_after: "Version 3.1.0a. For Windows 11 and Windows 10. Requires User Account Control permission. Available under MIT License.",
+    ////////////////////////////
+    /// LOCAL ACCOUNT WIZARD ///
+    ////////////////////////////
+    law_title: "Because it is a LAW to have offline option",
+    law_desc: "Microsoft continues to transform Windows into one giant piece of adware, forcing users to subscribe to every Windows component possible and to use Microsoft account even if they don't want to. As part of this efforts, Redmond-based company is increasingly agressively phases out the ability to create a local Windows account that is not bound to any Microsoft account. To counter these efforts, we present Local Account Wizard, or LAW - a program that helps you create local accounts without any obstacles.",
+    law_title1: "Fast and simple",
+    law_desc1: "The program works as a classic Windows 7 wizard, so every user could understand the process. Just type in the user name and, if you wish, a password. The wizard will check if the user name is available, and will proceed to the next steps.",
+    law_title2: "Different types",
+    law_desc2: "Just like in standard Windows settings, you are offered two options for account type: administrator and a standard user. Standard users can only launch most programs and change some system settings while administrators have complete access to the system.",
+    law_button1: "Download",
+    law_button2: "GitHub repository",
+    law_after: "Version 0.9.0. For Windows 11 and Windows 10. Requires User Account Control permission. Available under MIT License.",
     ////////////////////////
     /// ULTIMATE CONTROL ///
     ////////////////////////
@@ -180,10 +198,14 @@ const translations = {
     map_sect2_1: "Веб-узел",
     map_sect2_2: "Документация",
     map_sect2_3: "Репозиторий",
-    map_title3: "Ранние программы",
-    map_sect3_1: "IE Return",
-    map_sect3_2: "UAC QuickAccess",
-    map_sect3_3: "IsGenuine",
+    map_title3: "Local Account Wizard",
+    map_sect3_1: "Веб-узел",
+    map_sect3_2: "Документация",
+    map_sect3_3: "Репозиторий",
+    map_title4: "Ранние программы",
+    map_sect4_1: "IE Return",
+    map_sect4_2: "UAC QuickAccess",
+    map_sect4_3: "IsGenuine",
     ////////////
     /// HOME ///
     ////////////
@@ -191,6 +213,8 @@ const translations = {
     hero_desc:  "Замена Панели управления и Парметров ПК для Windows 10 и Windows 11.",
     hero_button:  "Скачать",
     news_title: "Последние новости: ",
+    news_0: "Local Account Wizard была выпущена 25 марта 2026. ",
+    news_0_link: "Страница загрузки.",
     news_1: "С 4 февраля 2026 на данном веб-сайте доступна итальянская, немецкая и русская локализация. ",
     news_2: "Отчёт за 2025 год был выпущен 29 января 2026. ",
     news_2_link: "Читать (на английском).",
@@ -280,6 +304,18 @@ const translations = {
     ier_button1: "Скачать",
     ier_button2: "Репозиторий GitHub",
     ier_after: "Версия 3.1.0a. Для Windows 11 и Windows 10. Требуется разрешение Контроля учётных записей пользователей. Представленное программное обеспечение доступно по лицензии MIT License.",
+    ////////////////////////////
+    /// LOCAL ACCOUNT WIZARD ///
+    ////////////////////////////
+    law_title: "Использовать локальную учётную запись — право каждого",
+    law_desc: "Microsoft продолжает превращать Windows в одну большую рекламную помойку, принуждая пользователей подписываться на все возможные компоненты Windows и использовать учетную запись Microsoft, даже если они этого не хотят. В рамках этих усилий компания из Редмонда все более агрессивно отказывается от возможности создания локальной учетной записи Windows, не привязанной к учетной записи Microsoft. Чтобы противостоять этим усилиям, мы представляем Local Account Wizard, или LAW — программу, которая помогает создавать локальные учетные записи без каких-либо препятствий.",
+    law_title1: "Быстро и просто",
+    law_desc1: "Программа работает как классическая программа-помощник из Windows 7, поэтому каждый пользователь поймет, как с ней работать. Просто введите имя пользователя и, при желании, пароль. Мастер проверит, доступно ли имя пользователя, и вы сможете перейти к следующим шагам.",
+    law_title2: "Для разных типов",
+    law_desc2: "Как и в стандартных настройках Windows, вам предлагаются два варианта типа учетной записи: администратор и обычный пользователь. Обычные пользователи могут только запускать большинство программ и изменять некоторые системные настройки, в то время как администраторы имеют полный доступ к системе.",
+    law_button1: "Скачать",
+    law_button2: "Репозиторий GitHub",
+    law_after: "Версия 0.9.0. Для Windows 11 и Windows 10. Требуется разрешение Контроля учётных записей пользователей. Представленное программное обеспечение доступно по лицензии MIT License.",
     ////////////////////////
     /// ULTIMATE CONTROL ///
     ////////////////////////
@@ -336,10 +372,14 @@ const translations = {
     map_sect2_1: "Sito web",
     map_sect2_2: "Documentazione",
     map_sect2_3: "Repository",
-    map_title3: "Software legacy",
-    map_sect3_1: "IE Return",
-    map_sect3_2: "UAC QuickAccess",
-    map_sect3_3: "IsGenuine",
+    map_title3: "Local Account Wizard",
+    map_sect3_1: "Sito web",
+    map_sect3_2: "Documentazione",
+    map_sect3_3: "Repository",
+    map_title4: "Software legacy",
+    map_sect4_1: "IE Return",
+    map_sect4_2: "UAC QuickAccess",
+    map_sect4_3: "IsGenuine",
     ////////////
     /// HOME ///
     ////////////
@@ -347,6 +387,8 @@ const translations = {
     hero_desc:  "Sostituzione del Pannello di controllo e delle Impostazioni in Windows 10 e Windows 11.",
     hero_button:  "Download",
     news_title: "Ultime notizie: ",
+    news_0: "Local Account Wizard è stato rilasciato il 25 marzo 2026. ",
+    news_0_link: "Pagina di download.",
     news_1: "Dal 4 febbraio 2026, questo sito web supporta ora la localizzazione in italiano, russo e tedesco. ",
     news_2: "Il rapporto 2025 è stato pubblicato il 29 gennaio 2026. ",
     news_2_link: "Leggi il rapporto (inglese).",
@@ -436,6 +478,18 @@ const translations = {
     ier_button1: "Download",
     ier_button2: "Repository GitHub",
     ier_after: "Versione 3.1.0a. Per Windows 11 e Windows 10. Richiede i privilegi del Controllo account utente. Il software è rilasciato con licenza MIT License.",
+    ////////////////////////////
+    /// LOCAL ACCOUNT WIZARD ///
+    ////////////////////////////
+    law_title: "Perché è una legge avere un’opzione offline",
+    law_desc: "Microsoft continua a trasformare Windows in un’enorme piattaforma pubblicitaria, costringendo gli utenti a sottoscrivere ogni componente possibile di Windows e a utilizzare un account Microsoft, anche quando non lo desiderano. Nell’ambito di questi sforzi, l’azienda con sede a Redmond sta eliminando sempre più aggressivamente la possibilità di creare un account locale non associato ad alcun account Microsoft. Per contrastare questa tendenza, presentiamo Local Account Wizard, o LAW: un programma che ti aiuta a creare account locali senza ostacoli.",
+    law_title1: "Veloce e semplice",
+    law_desc1: "Il programma funziona come la classica procedura guidata di Windows 7, così che ogni utente possa comprendere il processo. Basta digitare un nome utente e, se lo si desidera, una password. La procedura verificherà se il nome utente è disponibile e passerà ai passaggi successivi.",
+    law_title2: "Tipi diversi",
+    law_desc2: "Come nelle impostazioni standard di Windows, vengono offerte due opzioni per il tipo di account: amministratore e utente standard. Gli utenti standard possono avviare la maggior parte dei programmi e modificare alcune impostazioni di sistema, mentre gli amministratori hanno accesso completo al sistema.",
+    law_button1: "Scarica",
+    law_button2: "Repository GitHub",
+    law_after: "Versione 0.9.0. Per Windows 11 e Windows 10. Richiede i privilegi del Controllo account utente. Il software è rilasciato con licenza MIT License.",
     ////////////////////////
     /// ULTIMATE CONTROL ///
     ////////////////////////
@@ -492,10 +546,14 @@ const translations = {
     map_sect2_1: "Webseite",
     map_sect2_2: "Dokumentation",
     map_sect2_3: "Repository",
-    map_title3: "Legacy-Software",
-    map_sect3_1: "IE Return",
-    map_sect3_2: "UAC QuickAccess",
-    map_sect3_3: "IsGenuine",
+    map_title3: "Local Account Wizard",
+    map_sect3_1: "Webseite",
+    map_sect3_2: "Dokumentation",
+    map_sect3_3: "Repository",
+    map_title4: "Legacy-Software",
+    map_sect4_1: "IE Return",
+    map_sect4_2: "UAC QuickAccess",
+    map_sect4_3: "IsGenuine",
     ////////////
     /// HOME ///
     ////////////
@@ -503,6 +561,8 @@ const translations = {
     hero_desc:  "Alternative zu Systemsteuerung und Einstellungen in Windows 10 und Windows 11.",
     hero_button:  "Herunterladen",
     news_title: "Neueste Nachrichten: ",
+    news_0: "Local Account Wizard wurde am 25. März 2026. ",
+    news_0_link: "Download-Seite.",
     news_1: "Ab dem 4. Februar 2026 unterstützt diese Website nun die Lokalisierung in Deutsch, Italienisch und Russisch.",
     news_2: "2025-Bericht wurde am 29. Januar 2026 veröffentlicht. ",
     news_2_link: "Bericht lesen (in Englisch). ",
@@ -595,6 +655,18 @@ Diese Website orientiert sich am Auftritt der Webseite „windows.microsoft.com�
     ier_button1: "Herunterladen",
     ier_button2: "GitHub-Repository",
     ier_after: "Version 3.1.0a. Für Windows 11 und Windows 10. Erfordert Berechtigungen der Benutzerkontensteuerung. Verfügbar unter der MIT-Lizenz.",
+    ////////////////////////////
+    /// LOCAL ACCOUNT WIZARD ///
+    ////////////////////////////
+    law_title: "Denn es ist ein Gesetz, eine Offline-Option zu haben",
+    law_desc: "Microsoft verwandelt Windows weiterhin in eine riesige Adware-Plattform und zwingt Nutzer, jedes mögliche Windows-Bestandteil zu abonnieren und ein Microsoft-Konto zu verwenden – selbst dann, wenn sie das nicht möchten. Im Rahmen dieser Bemühungen schafft das Unternehmen aus Redmond zunehmend aggressiv die Möglichkeit ab, ein lokales Windows-Konto zu erstellen, das nicht an ein Microsoft-Konto gebunden ist. Um dem entgegenzuwirken, stellen wir den Local Account Wizard (LAW) vor – ein Programm, das Ihnen hilft, lokale Konten ohne Hindernisse einzurichten.",
+    law_title1: "Schnell und einfach",
+    law_desc1: "Das Programm funktioniert wie der klassische Assistent aus Windows 7, sodass jeder Nutzer den Vorgang verstehen kann. Geben Sie einfach einen Benutzernamen und, falls gewünscht, ein Passwort ein. Der Assistent prüft, ob der Benutzername verfügbar ist, und fährt mit den nächsten Schritten fort.",
+    law_title2: "Verschiedene Typen",
+    law_desc2: "Wie in den standardmäßigen Windows-Einstellungen stehen zwei Kontotypen zur Auswahl: Administrator und Standardbenutzer. Standardbenutzer können die meisten Programme starten und einige Systemeinstellungen ändern, während Administratoren vollen Zugriff auf das System haben.",
+    law_button1: "Herunterladen",
+    law_button2: "GitHub-Repository",
+    law_after: "Version 0.9.0. Für Windows 11 und Windows 10. Erfordert Berechtigungen der Benutzerkontensteuerung. Verfügbar unter der MIT-Lizenz.",
     ////////////////////////
 /// ULTIMATE CONTROL ///
 ////////////////////////
